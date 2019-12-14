@@ -21,9 +21,7 @@
     background-size: cover;
     background-position: center;
   }
-  h1 {
-    margin: 0px;
-  }
+  
   .hero-texBox {
     position: absolute;
     width: 1140px;
@@ -31,4 +29,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+  h1 {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+  }
