@@ -1,3 +1,4 @@
+/* Orange base color  #e67e22*/
 /*------------------------------*/
 /*BASIC SETUP*/
 /*------------------------------*/
@@ -20,7 +21,7 @@ html {
 /*REUSABLE COMPONENTS*/
 /*------------------------------*/
 
-.row{
+.row {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -60,7 +61,7 @@ h1 {
 }
 .btn:hover,
 .btn:active {
-  background-color: #cf6d17;  
+  background-color: #cf6d17;
 }
 
 .btn-full:hover,
@@ -72,7 +73,6 @@ h1 {
   border: solid 1px #cf6d17;
   color: #ffffff;
 }
-
 
 /*------------------------------*/
 /*HEADER*/
@@ -92,3 +92,36 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 30px;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: solid 2px transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: solid 2px #e67e22;
+}
+/*------------------------------*/
+/*HEADER END*/
+/*------------------------------*/
