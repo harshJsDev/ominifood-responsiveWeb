@@ -179,8 +179,21 @@ header {
 /*------------------------------*/
 .meals-showcase{
 list-style: none;
+width: 100%;
 }
-
+.meals-showcase li{
+  display: block;
+  float: left;
+  width: 25%;
+}
+.meal-photo{
+  width: 100%;
+  margin: 0;
+}
+.meal-photo img{
+  width: 100%;
+  height: auto;
+}
 /*------------------------------*/
 /*MEALS END*/
 /*------------------------------*/
