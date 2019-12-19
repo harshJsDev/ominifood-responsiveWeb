@@ -24,6 +24,17 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /*------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*------------------------------*/
@@ -83,6 +94,18 @@ h3 {
   color: #e67e22;
   margin-bottom: 10px;
   text-align: center;
+}
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  font-style: 120%;
+  margin-right: 10px;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
 }
 /*----Buttons---------*/
 .btn:link,
@@ -232,7 +255,6 @@ header {
   margin-top: 30px;
 }
 
-
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
@@ -276,12 +298,25 @@ header {
 }
 
 .btn-app img {
-
   height: 50px;
   width: auto;
   margin-right: 10px;
 }
-
 /*------------------------------*/
 /*HOW IT WORKS END*/
+/*------------------------------*/
+
+/*------------------------------*/
+/*CITIES*/
+/*------------------------------*/
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.city-feature {
+  margin-bottom: 5px;
+}
+/*------------------------------*/
+/*CITIES END*/
 /*------------------------------*/
