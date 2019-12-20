@@ -300,12 +300,12 @@ header {
   width: 54px;
   border: 2px solid #e67e22;
   border-radius: 50%;
-  display: inline-block;
   text-align: center;
   margin-right: 25px;
   float: left;
   padding: 5px;
 }
+
 
 .btn-app:link,
 .btn-app:visited {
@@ -334,4 +334,12 @@ header {
 }
 /*------------------------------*/
 /*CITIES END*/
+/*------------------------------*/
+/*------------------------------*/
+/*TESTIMONIALS SECTION*/
+/*------------------------------*/
+
+
+/*------------------------------*/
+/*TESTIMONIALS END*/
 /*------------------------------*/
