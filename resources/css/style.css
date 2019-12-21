@@ -393,8 +393,7 @@ header {
   height: 54px;
   width: 54px;
   border: 2px solid #e67e22;
-  border-radius: 50%;
-  display: inline-block;
+  border-radius: 50%;  
   text-align: center;
   margin-right: 25px;
   float: left;
@@ -433,8 +432,8 @@ header {
 /* ----------------------------------------------- */
 
 .section-testimonials {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
@@ -597,7 +596,7 @@ footer {
   text-decoration: none;
   border: 0;
   color: #888;
-  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -610,31 +609,31 @@ footer {
 .social-links li a:visited {
   font-size: 160%;
 }
-/*
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
-  -webkit-transition: color 0.2s;
+
+.facebook,
+.twitter,
+.googleplus,
+.instagram {
+  
   transition: color 0.2s;
 }
 
-.ion-social-facebook:hover {
+.facebook:hover {
   color: #3b5998;
 }
 
-.ion-social-twitter:hover {
+.twitter:hover {
   color: #00aced;
 }
 
-.ion-social-googleplus:hover {
+.googleplus:hover {
   color: #dd4b39;
 }
 
-.ion-social-instagram:hover {
+.instagram:hover {
   color: #517fa4;
 }
-*/
+
 
 footer p {
   color: #888;
@@ -644,27 +643,3 @@ footer p {
 
 
 
-
-/* ----------------------------------------------- */
-/* Animations */
-/* ----------------------------------------------- */
-
-.js--wp-1,
-.js--wp-2,
-.js--wp-3
-{
-  opacity: 0;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-}
-
-.js--wp-4 {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-}
-
-.js--wp-1.animated,
-.js--wp-2.animated,
-.js--wp-3.animated {
-  opacity: 1;
-}
